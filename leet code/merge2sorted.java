@@ -64,7 +64,7 @@ public class merge2sorted {
         Scanner sc = new Scanner(System.in);
 
         int arr[] = { 1, 2, 3, 0, 0, 0 };
-        int arr2[] = { 2, 5, 6, 9 };
+        int arr2[] = { 2, 5, 6 };
 
         merge(arr, 3, arr2, 3);
 
