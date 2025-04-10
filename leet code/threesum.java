@@ -1,4 +1,8 @@
- int n = nums.length;
+public class threesum {
+
+    public static void threesu(int nums[]) {
+
+        int n = nums.length;
         int arr1[] = new int[n];
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
@@ -16,3 +20,12 @@
                 }
             }
         }
+
+    }
+
+    public static void main(String args[]) {
+
+        int arr[] = { -1, 0, 1, 2, -1, -4 };
+        threesu(arr);
+    }
+}
